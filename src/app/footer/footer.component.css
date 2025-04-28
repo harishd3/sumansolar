@@ -1,0 +1,99 @@
+/* Footer Main Container */
+.footer {
+    background-color: #111; /* deeper dark */
+    color: #bbb; /* soft gray text */
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+
+/* Footer Headings */
+.footer h5 {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+/* Footer Paragraphs */
+.footer p, 
+.footer a {
+    color: #bbb;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+/* Footer Links Hover */
+.footer a:hover {
+    color: #0d6efd; /* bootstrap primary blue */
+}
+
+/* Social Buttons */
+.btn-social {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    border: 1px solid #bbb;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.4s ease;
+    font-size: 16px;
+}
+
+/* Social Hover Effect */
+.btn-social:hover {
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+    color: #fff;
+}
+
+/* Gallery Images */
+.footer .img-fluid {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.footer .img-fluid:hover {
+    transform: scale(1.05);
+}
+
+/* Newsletter Input */
+.footer input.form-control {
+    border-radius: 30px;
+    padding-left: 20px;
+    font-size: 14px;
+    background-color: #222;
+    color: #fff;
+    border: 1px solid #333;
+}
+
+.footer input.form-control::placeholder {
+    color: #777;
+}
+
+/* Newsletter Button */
+.footer button.btn-primary {
+    border-radius: 30px;
+    padding: 6px 20px;
+    font-size: 14px;
+}
+
+/* Copyright Area */
+.footer .copyright {
+    border-top: 1px solid #333;
+    padding: 20px 0;
+    margin-top: 40px;
+    font-size: 13px;
+    color: #777;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .footer .row > div {
+        margin-bottom: 30px;
+    }
+}

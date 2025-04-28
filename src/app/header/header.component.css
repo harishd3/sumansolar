@@ -1,0 +1,84 @@
+.active {
+    color: #0d6efd; /* Or any color for active nav item */
+    font-weight: bold;
+  }
+
+  /* Global reset for small margins */
+.container-fluid {
+  background-color: #000; /* dark background */
+  padding: 0;
+  color: #fff; /* white text by default */
+  font-family: 'Poppins', sans-serif; /* modern clean font */
+  font-size: 14px;
+}
+
+/* Row for top header */
+.row.gx-0 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+
+/* Left text (address and timing) */
+.col-lg-7,
+.col-lg-5 {
+  display: flex;
+  align-items: center;
+}
+
+/* Address and Timing */
+.col-lg-7 .h-100 {
+  display: flex;
+  gap: 30px;
+}
+
+/* Phone and Social icons */
+.col-lg-5 {
+  justify-content: flex-end;
+}
+
+.col-lg-5 .h-100 {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+/* Icon and Text spacing */
+.h-100 small {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* Social media buttons */
+.btn-square {
+  width: 36px;
+  height: 36px;
+  background-color: transparent;
+  border: 1px solid #555;
+  color: #fff;
+  transition: all 0.3s ease;
+  font-size: 16px;
+}
+
+/* Rounded border for social icons */
+.btn-square i {
+  line-height: 36px;
+}
+
+/* Hover effect for social buttons */
+.btn-square:hover {
+  background-color: #0d6efd; /* Bootstrap primary color */
+  color: #fff;
+  border-color: #0d6efd;
+}
+
+/* Responsive: Hide on small screen */
+@media (max-width: 992px) {
+  .d-none.d-lg-flex {
+      display: none !important;
+  }
+}
+
+  
