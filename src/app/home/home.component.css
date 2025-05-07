@@ -1,0 +1,196 @@
+/* Feature Section Styles */
+.container-xxl {
+    max-width: 100%;
+  }
+  
+  @media (max-width: 768px) {
+    .row.g-5 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .col-md-6 {
+      margin-bottom: 20px;
+    }
+  }
+  
+  /* Counter number style */
+  h1 {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  .carousel-inner img {
+    height: 800px;        /* Set fixed height */
+    object-fit: cover;    /* Crop to fit while maintaining aspect ratio */
+  }
+  
+  .donation-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    padding: 2rem;
+  
+    .image-container {
+      flex: 1 1 300px;
+  
+      img {
+        width: 100%;
+        border-radius: 8px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      }
+    }
+  
+    .content {
+      flex: 1 1 400px;
+      max-width: 600px;
+  
+      h2 {
+        font-size: 1.8rem;
+        font-weight: 700;
+  
+        .highlight {
+          color: #000;
+        }
+      }
+  
+      p {
+        font-size: 1rem;
+        margin: 0.5rem 0;
+      }
+  
+      .bold {
+        font-weight: bold;
+      }
+  
+      .donate-btn {
+        margin-top: 1rem;
+        background-color: #e6df7d;
+        border: none;
+        padding: 0.8rem 1.5rem;
+        font-size: 1rem;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+  
+        &:hover {
+          background-color: #d4cc6f;
+        }
+      }
+    }
+  }
+
+  .solar-guide-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 2rem;
+    align-items: center;
+  }
+  
+  .text-section {
+    flex: 1;
+    min-width: 300px;
+  }
+  
+  .text-section h2 {
+    font-size: 24px;
+    margin-bottom: 1rem;
+  }
+  
+  .text-section p {
+    font-size: 16px;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  .read-more {
+    display: inline-block;
+    margin-top: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: #0044cc;
+  }
+  
+  .guide-links {
+    margin-top: 1.5rem;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .guide-links li {
+    margin-bottom: 0.5rem;
+  }
+  
+  .guide-links a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+  }
+  
+  .image-section {
+    flex: 1;
+    min-width: 300px;
+  }
+  
+  .image-section img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+  }
+  
+  .donation-section {
+    display: flex;
+    gap: 2rem;
+    padding: 2rem;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .image-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  /* Animation keyframes */
+  @keyframes fadeIn {
+    from { opacity: 0; transform: scale(0.95); }
+    to { opacity: 1; transform: scale(1); }
+  }
+  
+  @keyframes slideInRight {
+    from { opacity: 0; transform: translateX(50px); }
+    to { opacity: 1; transform: translateX(0); }
+  }
+  
+  /* Animation classes */
+  .fade-in {
+    animation: fadeIn 1.5s ease-out forwards;
+  }
+  
+  .slide-in {
+    animation: slideInRight 1.5s ease-out forwards;
+  }
+  
+  /* Optional styling */
+  .content {
+    max-width: 600px;
+  }
+  
+  .solar-guide-list {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .solar-guide-list li {
+    margin-bottom: 10px;
+  }
+  
+  .signature {
+    font-style: italic;
+    margin-top: 1rem;
+  }
+  
+  
+  
